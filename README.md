@@ -8,5 +8,10 @@ Scripts and configuration for Devops class
 # Shell scripting command to extract column data from CSV file
 
  ● Awk : Awk is a scripting language used for manipulating data and generating reports.  Awk is mostly used for pattern scanning and processing. 
-
-
+   Command : $ awk '{print $1,$4}' bankemployee.txt
+    This command extract data from column 1 and column 4 and disply it.
+ ● grep : The grep filter searches a file for a particular pattern of characters, and displays all lines that contain that pattern.
+    Command : grep -E "manager" filename.txt>newfile.txt
+   This command extract all name with manager designation and create new file(newfile.txt)
+   -E : Treats pattern as an extended regular expression (ERE)
+   

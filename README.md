@@ -1,4 +1,4 @@
-# Devopstest
+# Linux
 
 Scripts and configuration for Devops class
 :)What does this line in shell scripts means?: #!/bin/bash
